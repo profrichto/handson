@@ -1,7 +1,7 @@
 from electionCount import ElectionCount
 import unittest
 
-# Default placeholder for a real key value
+# Default placeholder for an actual key value
 key = '0000'
 
 class ElectionCountTest(unittest.Testcase):
