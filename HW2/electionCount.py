@@ -5,7 +5,7 @@ logging.basicConfig(filename='electionCount.log', format='%(levelname)s:%(messag
 class ElectionCount:
 
 	def __init__(self, key):
-		#Key as an input
+		#Intitalise function with actual key value
 		self.key = key
 		logging.info('Accessing MediaCloud')
 		self.mc = mediacloud.api.MediaCloud(self.key)
